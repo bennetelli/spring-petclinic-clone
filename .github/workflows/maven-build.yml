@@ -10,8 +10,7 @@ on:
     branches: [ main ]
 
 jobs:
-  build:
-
+  trivy-pr-check:
     runs-on: ubuntu-latest
     strategy:
       matrix:
